@@ -2,7 +2,7 @@ import './styles/App.css';
 import Model from '../components/Model';
 import Footer from '../components/Footer';
 
-export default function App() {
+export default function Groups() {
   return (
     <div className="max-h-screen min-w-full">
       <div 
