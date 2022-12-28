@@ -11,7 +11,6 @@ export default function Model() {
   return (
     <model-viewer
       id="model"
-      // onClick={() => PlayAudio()}
       src="./models/kura12.glb"
       ios-src=""
       alt="A 3D model of an astronaut"
