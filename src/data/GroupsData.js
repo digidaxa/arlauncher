@@ -1,8 +1,8 @@
-const Groups = () => ([
+const groups = () => ([
   {
     id: 0,
     title: 'AESPA',
-    url: 'https://digidaxa.com/viewar/aespa',
+    url: 'aespa',
     // ini adalah aespa
     randstr: '$2y$10$hyY/icm4upbPYQEyZD7Eyuei13tqSa1/yX8tDOLBFzfa5A450nGFC',
     colorPalette: {
@@ -21,7 +21,7 @@ const Groups = () => ([
   {
     id: 1,
     title: 'BLACKPINK',
-    url: 'https://digidaxa.com/viewar/blackpink',
+    url: 'blackpink',
     // ini adalah blackpink
     randstr: '$2y$10$ak1vW3JelvLNfYKwdO/8ue9nbKU5dDkKCC96lJ6hyqIQiUVUd9DJu',
     colorPalette: {
@@ -40,7 +40,7 @@ const Groups = () => ([
   {
     id: 2,
     title: 'BTS',
-    url: 'https://digidaxa.com/viewar/bts',
+    url: 'bts',
     // ini adalah bts
     randstr: '$2y$10$jePYMdqqrXN2.n2SXjvhyOEXK4gyXJVl7JCXln9SLtHUYBtDghdHm',
     colorPalette: {
@@ -59,7 +59,7 @@ const Groups = () => ([
   {
     id: 3,
     title: 'ITZY',
-    url: 'https://digidaxa.com/viewar/itzy',
+    url: 'itzy',
     // ini adalah itzy
     randstr: '$2y$10$gHqtRYGB413yV6LlUBnvkehiXEl6sa6u4bXzv7PJYGyDKmneZNOWG',
     colorPalette: {
@@ -78,7 +78,7 @@ const Groups = () => ([
   {
     id: 4,
     title: 'NCT DREAM',
-    url: 'https://digidaxa.com/viewar/nctdream',
+    url: 'nctdream',
     // ini adalah nct dream
     randstr: '$2y$10$gHqtRYGB413yV6LlUBnvkehiXEl6sa6u4bXzv7PJYGyDKmneZNOWG',
     colorPalette: {
@@ -97,7 +97,7 @@ const Groups = () => ([
   {
     id: 5,
     title: 'RED VELVET',
-    url: 'https://digidaxa.com/viewar/redvelvet',
+    url: 'redvelvet',
     // ini adalah red velvet
     randstr: '$2y$10$XzrdfAahuQ30ihFJZi/8lOD6/OWEhWKFjBO12pkyd2dwtgfrmMO8q',
     colorPalette: {
@@ -116,7 +116,7 @@ const Groups = () => ([
   {
     id: 6,
     title: 'SEVENTEEN',
-    url: 'https://digidaxa.com/viewar/seventeen',
+    url: 'seventeen',
     // ini adalah seventeen
     randstr: '$2y$10$ipO2023UNTdGPtzh5APPAOGBjiwgo8to2XVQEr7BVuKrPhgyeTdl.',
     colorPalette: {
@@ -135,7 +135,7 @@ const Groups = () => ([
   {
     id: 7,
     title: 'Stray Kids',
-    url: 'https://digidaxa.com/viewar/straykids',
+    url: 'straykids',
     // ini adalah stray kids
     randstr: '$2y$10$ltyjicIqzDl0Md85oYb5C.p8/bTFW4w79z7PMvX9pY3m/.eGezRm2',
     colorPalette: {
@@ -154,7 +154,7 @@ const Groups = () => ([
   {
     id: 8,
     title: 'Tomorrow X Together',
-    url: 'https://digidaxa.com/viewar/txt',
+    path: 'txt',
     // ini adalah txt
     randstr: '$2y$10$PlhlpXAu5M53tdbogQ/gz.ByfDScZpfqiFvuuNhH.FTRFu1Pp9nSe',
     colorPalette: {
@@ -173,5 +173,5 @@ const Groups = () => ([
 ]);
 
 export { 
-  Groups
+  groups
 };

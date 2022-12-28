@@ -1,4 +1,6 @@
-export default function Footer() {
+export default function Footer({ data}) {
+
+  const { primary, tertiary } = data.colorPalette;
 
   return (
     <footer
@@ -7,21 +9,22 @@ export default function Footer() {
       <span 
         className="text-lg md:text-xl w-full"
       >
-        Welcome to {} Augmented Reality Card
+        Welcome to <b>{data.title}</b> AR Card
       </span>
       <div
         className="flex flex-row flex-wrap justify-center gap-3"
       >
         <button
           onClick={() => window.open('https://msha.ke/inaseon', '_blank')}
-          className="py-3 px-5 font-bold border-[1px] border-primary rounded-full bg-primary shadow shadow-primary hover:shadow-lg hover:shadow-primary text-white transition-all duration-150">
+          className={`py-3 px-5 font-bold border-[1px] rounded-full shadow shadow-black/40 hover:shadow-lg hover:shadow-black/40 transition-all duration-150`}
+          style={{ 
+            backgroundColor: primary,
+            borderColor: primary,
+            color: tertiary,
+          }}  
+        >
             Buy More Cards
         </button>
-        {/* <button
-          onClick={() => window.open('https://msha.ke/inaseon', '_blank')}
-          className="py-3 px-5 font-bold border-[1px] border-primary rounded-full shadow shadow-primary hover:bg-primary hover:text-white hover:shadow-lg hover:shadow-primary text-primary transition-all duration-150">
-          Buy More Cards
-        </button> */}
       </div>
     </footer>
   );

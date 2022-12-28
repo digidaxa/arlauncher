@@ -6,14 +6,15 @@ import {
    
 } from 'react-icons/fa';
 
-export default function Model() {
+export default function Model({ data }) {
+  const { primary } = data.colorPalette;
 
   return (
     <model-viewer
       id="model"
-      src="./models/kura12.glb"
+      src={data.model.src}
       ios-src=""
-      alt="A 3D model of an astronaut"
+      alt={data.model.alt}
       shadow-intensity="1"
       camera-controls
       ar
@@ -21,6 +22,9 @@ export default function Model() {
       camera-orbit="17.95deg 85.97deg 16.01m"
       auto-rotate
       autoplay
+      style={{
+        backgroundColor:primary,
+      }}
     >
       <button 
         slot="ar-button"
