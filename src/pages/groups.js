@@ -1,4 +1,3 @@
-import './styles/App.css';
 import Model from '../components/Model';
 import Footer from '../components/Footer';
 
