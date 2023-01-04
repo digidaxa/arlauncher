@@ -170,6 +170,101 @@ const groups = () => ([
       alt: 'A 3D model of Tomorrow X Together'
     }
   },
+  {
+    id: 9,
+    title: 'ENHYPEN',
+    path: 'enhypen',
+    // ini adalah enhypen
+    randstr: '$2y$10$PlR2b0s7xUF.VhGw6n3OWuF5fQa2AT42PINPkTAqLDXLjklCp2uPO',
+    colorPalette: {
+      primary: '#51929c',
+      secondary: '#c6a083',
+      tertiary: '#728b86',
+      quaternary: '#f1f1f1',
+      quinary: '#b1c1c4',
+    },
+    model: {
+      src: './models/enhypen.glb',
+      iosSrc: '',
+      alt: 'A 3D model of ENHYPEN'
+    }
+  },
+  {
+    id: 10,
+    title: 'IVE',
+    path: 'ive',
+    // ini adalah ive
+    randstr: '$2y$10$B5ya6j8obtoDbYnD6wyy0uKmpY/XcOvnoOtxJncAguX1XsFHl9ntu',
+    colorPalette: {
+      primary: '#b2036b',
+      secondary: '#c6a083',
+      tertiary: '#728b86',
+      quaternary: '#f1f1f1',
+      quinary: '#b1c1c4',
+    },
+    model: {
+      src: './models/ive.glb',
+      iosSrc: '',
+      alt: 'A 3D model of IVE'
+    }
+  },
+  {
+    id: 11,
+    title: 'NewJeans',
+    path: 'newjeans',
+    // ini adalah newjeans
+    randstr: '$2y$10$ZPERgrL6nr4b5RcPILeQpuZ1XZPxNPa.19cyc7m7CP/XKvDcYJjuy',
+    colorPalette: {
+      primary: '#47505c',
+      secondary: '#babdc4',
+      tertiary: '#a7b3c5',
+      quaternary: '#78818b',
+      quinary: '#8c98a2',
+    },
+    model: {
+      src: './models/newjeans.glb',
+      iosSrc: '',
+      alt: 'A 3D model of NewJeans'
+    }
+  },
+  {
+    id: 12,
+    title: 'TREASURE',
+    path: 'treasure',
+    // ini adalah treasure
+    randstr: '$2y$10$urk9XK9xXhb.nlabk2du5.CPtqnyNlSJln3K.8Xvq85ZY9MAgYjiC',
+    colorPalette: {
+      primary: '#000000',
+      secondary: '#ffffff',
+      tertiary: '#000000',
+      quaternary: '#ffffff',
+      quinary: '#ffffff',
+    },
+    model: {
+      src: './models/treasure.glb',
+      iosSrc: '',
+      alt: 'A 3D model of TREASURE'
+    }
+  },
+  {
+    id: 13,
+    title: 'TWICE',
+    path: 'twice',
+    // ini adalah twice
+    randstr: '$2y$10$1Pepdb7Bgxt5P4EPUvMWdeALZMSHc7CcAp.bz44A9p.ahlhGl/QfC',
+    colorPalette: {
+      primary: '#ff5fa2',
+      secondary: '#fccfa6',
+      tertiary: '#fdb3a5',
+      quaternary: '#fe97a4',
+      quinary: '#fe7ba3',
+    },
+    model: {
+      src: './models/twice.glb',
+      iosSrc: '',
+      alt: 'A 3D model of TWICE'
+    }
+  },
 ]);
 
 export { 
