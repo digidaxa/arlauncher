@@ -265,6 +265,25 @@ const groups = () => ([
       alt: 'A 3D model of TWICE'
     }
   },
+  {
+    id: 14,
+    title: 'EXO',
+    path: 'exo',
+    // ini adalah exo
+    randstr: '$2y$10$fzH1Q.ESV64tN9aAuZOMIuqASavosq0DI.uOGbsHhFcz7LQxvo0Sm',
+    colorPalette: {
+      primary: '#dbdbdb',
+      secondary: '#ffffff',
+      tertiary: '#fff8e7',
+      quaternary: '#000000',
+      quinary: '#f6f1e4',
+    },
+    model: {
+      src: './models/exo.glb',
+      iosSrc: '',
+      alt: 'A 3D model of EXO'
+    }
+  },
 ]);
 
 export { 
