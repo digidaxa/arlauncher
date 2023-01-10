@@ -177,9 +177,9 @@ const groups = () => ([
     // ini adalah enhypen
     randstr: '$2y$10$PlR2b0s7xUF.VhGw6n3OWuF5fQa2AT42PINPkTAqLDXLjklCp2uPO',
     colorPalette: {
-      primary: '#51929c',
-      secondary: '#c6a083',
-      tertiary: '#728b86',
+      primary: '#ff5b42',
+      secondary: '#ffffff',
+      tertiary: '#c6a083',
       quaternary: '#f1f1f1',
       quinary: '#b1c1c4',
     },
