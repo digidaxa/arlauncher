@@ -284,6 +284,25 @@ const groups = () => ([
       alt: 'A 3D model of EXO'
     }
   },
+   {
+    id: 15,
+    title: 'iKON',
+    path: 'ikon',
+    // ini adalah ikon
+    randstr: '$2y$10$BS517b8jx5BJ3HQY255l2ON3ME51NH5G0A.6RW3.qnvv4B/BWUk.C',
+    colorPalette: {
+      primary: '#c52223',
+      secondary: '#ffffff',
+      tertiary: '#000000',
+      quaternary: '#000000',
+      quinary: '#ffffff',
+    },
+    model: {
+      src: './models/ikon.glb',
+      iosSrc: '',
+      alt: 'A 3D model of iKON'
+    }
+  },
 ]);
 
 export { 
