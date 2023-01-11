@@ -27,8 +27,8 @@ const groups = () => ([
     colorPalette: {
       primary: '#000000',
       secondary: '#e6a1b4',
-      tertiary: '#ff59c7',
-      quaternary: '#ff76d8',
+      tertiary: '#FFFFFF',
+      quaternary: '#E6A1B4',
       quinary: '#ff94e0',
     },
     model: {
@@ -44,10 +44,10 @@ const groups = () => ([
     // ini adalah bts
     randstr: '$2y$10$jePYMdqqrXN2.n2SXjvhyOEXK4gyXJVl7JCXln9SLtHUYBtDghdHm',
     colorPalette: {
-      primary: '#5f2568',
-      secondary: '#87588e',
-      tertiary: '#9b6c9a',
-      quaternary: '#a27eac',
+      primary: '#1E3D72',
+      secondary: '#16C3B1',
+      tertiary: '#F0EEE2',
+      quaternary: '#FFFFFF',
       quinary: '#b37eb5',
     },
     model: {
@@ -63,10 +63,10 @@ const groups = () => ([
     // ini adalah itzy
     randstr: '$2y$10$gHqtRYGB413yV6LlUBnvkehiXEl6sa6u4bXzv7PJYGyDKmneZNOWG',
     colorPalette: {
-      primary: '#6C2DC7',
-      secondary: '#FF0000',
-      tertiary: '#FFFF00',
-      quaternary: '#00FF00',
+      primary: '#131416',
+      secondary: '#C1A79E',
+      tertiary: '#ffffff',
+      quaternary: '#ffffff',
       quinary: '#',
     },
     model: {
@@ -82,13 +82,14 @@ const groups = () => ([
     // ini adalah nct dream
     randstr: '$2y$10$gHqtRYGB413yV6LlUBnvkehiXEl6sa6u4bXzv7PJYGyDKmneZNOWG',
     colorPalette: {
-      primary: '#000000',
-      secondary: '#6f8111',
-      tertiary: '#ffffff',
-      quaternary: '#cced1d',
+      primary: '#6F8111',
+      secondary: '#CCED1D',
+      tertiary: '#EFF9BB',
+      quaternary: '#FFFFFF',
       quinary: '#eff9bb',
     },
     model: {
+      // src: './models/nctdream.glb',
       src: './models/nctdream.glb',
       iosSrc: '',
       alt: 'A 3D model of NCT DREAM'
@@ -120,10 +121,10 @@ const groups = () => ([
     // ini adalah seventeen
     randstr: '$2y$10$ipO2023UNTdGPtzh5APPAOGBjiwgo8to2XVQEr7BVuKrPhgyeTdl.',
     colorPalette: {
-      primary: '#92a8d1',
-      secondary: '#abb1cf',
-      tertiary: '#c5b9cd',
-      quaternary: '#dec2cb',
+      primary: '#66A0C5',
+      secondary: '#FBD55A',
+      tertiary: '#FFFFFF',
+      quaternary: '#FBD55A',
       quinary: '#f7cac9',
     },
     model: {
@@ -177,10 +178,10 @@ const groups = () => ([
     // ini adalah enhypen
     randstr: '$2y$10$PlR2b0s7xUF.VhGw6n3OWuF5fQa2AT42PINPkTAqLDXLjklCp2uPO',
     colorPalette: {
-      primary: '#51929c',
-      secondary: '#c6a083',
-      tertiary: '#728b86',
-      quaternary: '#f1f1f1',
+      primary: '#FF5B42',
+      secondary: '#FFA566',
+      tertiary: '#F1F1F1',
+      quaternary: '#FFFFFF',
       quinary: '#b1c1c4',
     },
     model: {
@@ -253,10 +254,10 @@ const groups = () => ([
     // ini adalah twice
     randstr: '$2y$10$1Pepdb7Bgxt5P4EPUvMWdeALZMSHc7CcAp.bz44A9p.ahlhGl/QfC',
     colorPalette: {
-      primary: '#ff5fa2',
-      secondary: '#fccfa6',
-      tertiary: '#fdb3a5',
-      quaternary: '#fe97a4',
+      primary: '#FF5FA2',
+      secondary: '#FCCFA6',
+      tertiary: '#F0EEE2',
+      quaternary: '#F0EEE2',
       quinary: '#fe7ba3',
     },
     model: {
@@ -272,11 +273,11 @@ const groups = () => ([
     // ini adalah exo
     randstr: '$2y$10$fzH1Q.ESV64tN9aAuZOMIuqASavosq0DI.uOGbsHhFcz7LQxvo0Sm',
     colorPalette: {
-      primary: '#dbdbdb',
-      secondary: '#ffffff',
-      tertiary: '#fff8e7',
-      quaternary: '#000000',
-      quinary: '#f6f1e4',
+      primary: '#211428',
+      secondary: '#A4D7EB',
+      tertiary: '#F5F5FD',
+      quaternary: '#FFFFFF',
+      quinary: '#000000',
     },
     model: {
       src: './models/exo.glb',

@@ -1,6 +1,6 @@
 export default function Footer({ data}) {
 
-  const { primary, tertiary } = data.colorPalette;
+  const { primary, quaternary  } = data.colorPalette;
 
   return (
     <footer
@@ -8,6 +8,7 @@ export default function Footer({ data}) {
     >
       <span 
         className="text-lg md:text-xl w-full"
+        style={{ color: primary }}
       >
         Welcome to <b>{data.title}</b> AR Card
       </span>
@@ -20,7 +21,7 @@ export default function Footer({ data}) {
           style={{ 
             backgroundColor: primary,
             borderColor: primary,
-            color: tertiary,
+            color: quaternary
           }}  
         >
             Buy More Cards

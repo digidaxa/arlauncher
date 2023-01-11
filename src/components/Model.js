@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 
 export default function Model({ data }) {
-  const { primary } = data.colorPalette;
+  const { tertiary } = data.colorPalette;
 
   return (
     <model-viewer
@@ -23,7 +23,7 @@ export default function Model({ data }) {
       auto-rotate
       autoplay
       style={{
-        backgroundColor:primary,
+        backgroundColor:tertiary,
       }}
     >
       <button 
