@@ -1,7 +1,7 @@
 import './styles/App.css';
 import { Routes, Route } from 'react-router-dom';
 
-import Index from './pages/Index';
+import Home from './pages/Home';
 import Groups from './pages/Groups';
 
 import {
@@ -12,8 +12,8 @@ import {
 export default function App() {
   return (
     <Routes>
-      <Route exact path="/" element={<Index />} />
-      {/* <Route path="*" element={<Index />} /> */}
+      <Route exact path="/" element={<Home />} />
+      <Route path="*" element={<Home />} />
       {
         groups().map((group, index) => {
           return (
