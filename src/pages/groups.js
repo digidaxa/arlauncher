@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 export default function Groups({ data }) {
   useEffect(function () {
-    document.title = data.title + ' AR - Digidaxa Augmented Reality Viewer';
+    document.title = data.title + ' AR - Digidaxa Augmented Reality Launcher';
   }, [data.title]);
   
   return (

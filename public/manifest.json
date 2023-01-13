@@ -1,6 +1,6 @@
 {
-  "short_name": "Digidaxa AR Viewer",
-  "name": "Digidaxa Augmented Reality Viewer",
+  "short_name": "Digidaxa AR Launcher",
+  "name": "Digidaxa Augmented Reality Launcher",
   "icons": [
     {
       "src": "./img/favicon.ico",
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "./arlauncher",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#5AA59A",
   "background_color": "#ffffff"
