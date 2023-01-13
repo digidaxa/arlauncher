@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Coba from './pages/Coba';
-import Groups from './pages/Groups';
+// import Groups from './pages/Groups';
 
 import {
   groups
@@ -15,7 +15,7 @@ export default function App() {
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/coba" element={<Coba />} />
-      <Route path="*" element={<Home />} />
+      {/* <Route path="*" element={<Home />} />
       {
         groups().map((group, index) => {
           return (
@@ -27,7 +27,7 @@ export default function App() {
             />
           )
         })
-      }
+      } */}
       {/* <Route path="/groups" element={<Groups data={groups()}/>} /> */}
     </Routes>
   );
