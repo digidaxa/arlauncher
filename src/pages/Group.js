@@ -2,7 +2,7 @@ import Model from '../components/Model';
 import Footer from '../components/Footer';
 import { useEffect } from 'react';
 
-export default function Groups({ data }) {
+export default function Group({ data }) {
   useEffect(function () {
     document.title = data.title + ' AR - Digidaxa Augmented Reality Launcher';
   }, [data.title]);
