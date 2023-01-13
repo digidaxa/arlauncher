@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Routes>
       <Route exact path="/" element={<Index />} />
-      <Route path="*" element={<Index />} />
+      {/* <Route path="*" element={<Index />} /> */}
       {
         groups().map((group, index) => {
           return (
