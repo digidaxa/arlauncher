@@ -13,7 +13,7 @@ export default function Model({ data }) {
   return (
     <model-viewer
       id="model"
-      src={`/models/${data.model.src}`}
+      src={`/arlauncher/models/${data.model.src}`}
       ios-src=""
       alt={data.model.alt}
       shadow-intensity="1"
