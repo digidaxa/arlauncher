@@ -51,7 +51,7 @@ const groups = () => ([
       quinary: '#b37eb5',
     },
     model: {
-      src: 'bts.glb',
+      src: '$2y$10$jePYMdqqrXN2.glb',
       iosSrc: '',
       alt: 'A 3D model of BTS'
     }
@@ -89,8 +89,7 @@ const groups = () => ([
       quinary: '#eff9bb',
     },
     model: {
-      // src: 'nctdream.glb',
-      src: 'nctdream.glb',
+      src: '$2y$10$gHqtRYGB413yV6LlUBnvkehiXEl6sa6u4bXzv7PJYGyDKmneZNOWG.glb',
       iosSrc: '',
       alt: 'A 3D model of NCT DREAM'
     }

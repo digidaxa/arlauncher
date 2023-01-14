@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import '@google/model-viewer';
 import React from 'react';
+// import contentHash from 'content-hash';
+
 import { 
   FaCamera,   
 } from 'react-icons/fa';
-
-import btsModel from '../assets/models/bts.glb';
 
 export default function Model({ data }) {
   const { tertiary } = data.colorPalette;
@@ -13,8 +13,7 @@ export default function Model({ data }) {
   return (
     <model-viewer
       id="model"
-      // src={data.model.src}
-      src={btsModel}
+      src={`/models/${data.model.src}`}
       ios-src=""
       alt={data.model.alt}
       shadow-intensity="1"
