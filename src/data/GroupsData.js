@@ -13,7 +13,7 @@ const groups = () => ([
       quinary: '#ff0025',
     },
     model: {
-      src: './models/aespa.glb',
+      src: 'aespa.glb',
       iosSrc: '',
       alt: 'A 3D model of AESPA'
     }
@@ -32,7 +32,7 @@ const groups = () => ([
       quinary: '#ff94e0',
     },
     model: {
-      src: './models/blackpink.glb',
+      src: 'blackpink.glb',
       iosSrc: '',
       alt: 'A 3D model of BLACKPINK'
     }
@@ -51,7 +51,7 @@ const groups = () => ([
       quinary: '#b37eb5',
     },
     model: {
-      src: './models/bts.glb',
+      src: 'bts.glb',
       iosSrc: '',
       alt: 'A 3D model of BTS'
     }
@@ -70,7 +70,7 @@ const groups = () => ([
       quinary: '#',
     },
     model: {
-      src: './models/itzy.glb',
+      src: 'itzy.glb',
       iosSrc: '',
       alt: 'A 3D model of ITZY'
     }
@@ -89,8 +89,8 @@ const groups = () => ([
       quinary: '#eff9bb',
     },
     model: {
-      // src: './models/nctdream.glb',
-      src: './models/nctdream.glb',
+      // src: 'nctdream.glb',
+      src: 'nctdream.glb',
       iosSrc: '',
       alt: 'A 3D model of NCT DREAM'
     }
@@ -109,7 +109,7 @@ const groups = () => ([
       quinary: '#ffffff',
     },
     model: {
-      src: './models/redvelvet.glb',
+      src: 'redvelvet.glb',
       iosSrc: '',
       alt: 'A 3D model of RED VELVET'
     }
@@ -128,7 +128,7 @@ const groups = () => ([
       quinary: '#f7cac9',
     },
     model: {
-      src: './models/seventeen.glb',
+      src: 'seventeen.glb',
       iosSrc: '',
       alt: 'A 3D model of SEVENTEEN'
     }
@@ -147,7 +147,7 @@ const groups = () => ([
       quinary: '#000000',
     },
     model: {
-      src: './models/straykids.glb',
+      src: 'straykids.glb',
       iosSrc: '',
       alt: 'A 3D model of Stray Kids'
     }
@@ -166,7 +166,7 @@ const groups = () => ([
       quinary: '#3557ff',
     },
     model: {
-      src: './models/txt.glb',
+      src: 'txt.glb',
       iosSrc: '',
       alt: 'A 3D model of Tomorrow X Together'
     }
@@ -185,7 +185,7 @@ const groups = () => ([
       quinary: '#b1c1c4',
     },
     model: {
-      src: './models/enhypen.glb',
+      src: 'enhypen.glb',
       iosSrc: '',
       alt: 'A 3D model of ENHYPEN'
     }
@@ -204,7 +204,7 @@ const groups = () => ([
       quinary: '#b1c1c4',
     },
     model: {
-      src: './models/ive.glb',
+      src: 'ive.glb',
       iosSrc: '',
       alt: 'A 3D model of IVE'
     }
@@ -223,7 +223,7 @@ const groups = () => ([
       quinary: '#8c98a2',
     },
     model: {
-      src: './models/newjeans.glb',
+      src: 'newjeans.glb',
       iosSrc: '',
       alt: 'A 3D model of NewJeans'
     }
@@ -242,7 +242,7 @@ const groups = () => ([
       quinary: '#ffffff',
     },
     model: {
-      src: './models/treasure.glb',
+      src: 'treasure.glb',
       iosSrc: '',
       alt: 'A 3D model of TREASURE'
     }
@@ -261,7 +261,7 @@ const groups = () => ([
       quinary: '#fe7ba3',
     },
     model: {
-      src: './models/twice.glb',
+      src: 'twice.glb',
       iosSrc: '',
       alt: 'A 3D model of TWICE'
     }
@@ -280,7 +280,7 @@ const groups = () => ([
       quinary: '#000000',
     },
     model: {
-      src: './models/exo.glb',
+      src: 'exo.glb',
       iosSrc: '',
       alt: 'A 3D model of EXO'
     }
@@ -299,7 +299,7 @@ const groups = () => ([
       quinary: '#ffffff',
     },
     model: {
-      src: './models/ikon.glb',
+      src: 'ikon.glb',
       iosSrc: '',
       alt: 'A 3D model of iKON'
     }

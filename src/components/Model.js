@@ -2,9 +2,10 @@
 import '@google/model-viewer';
 import React from 'react';
 import { 
-  FaCamera,
-   
+  FaCamera,   
 } from 'react-icons/fa';
+
+import btsModel from '../assets/models/bts.glb';
 
 export default function Model({ data }) {
   const { tertiary } = data.colorPalette;
@@ -12,7 +13,8 @@ export default function Model({ data }) {
   return (
     <model-viewer
       id="model"
-      src={data.model.src}
+      // src={data.model.src}
+      src={btsModel}
       ios-src=""
       alt={data.model.alt}
       shadow-intensity="1"
