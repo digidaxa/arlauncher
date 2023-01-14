@@ -8,7 +8,7 @@ export default function Group({ data }) {
   }, [data.title]);
   
   return (
-    <div className="max-h-screen min-w-[100vw]">
+    <div className="max-h-screen min-w-full">
       <div 
         className="flex flex-col items-center justify-center rounded shadow-xl shadow-secondary/30 overflow-hidden max-w-xl mx-auto my-10 bg-white"
       >
