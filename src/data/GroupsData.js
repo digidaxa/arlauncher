@@ -291,10 +291,10 @@ const groups = () => ([
     // ini adalah ikon
     randstr: '$2y$10$BS517b8jx5BJ3HQY255l2ON3ME51NH5G0A.6RW3.qnvv4B/BWUk.C',
     colorPalette: {
-      primary: '#c52223',
-      secondary: '#ffffff',
-      tertiary: '#000000',
-      quaternary: '#000000',
+      primary: '#C82422',
+      secondary: '#000000',
+      tertiary: '#f1f1f1',
+      quaternary: '#ffffff',
       quinary: '#ffffff',
     },
     model: {
