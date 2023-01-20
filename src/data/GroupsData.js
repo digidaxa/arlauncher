@@ -234,10 +234,10 @@ const groups = () => ([
     // ini adalah treasure
     randstr: '$2y$10$urk9XK9xXhb.nlabk2du5.CPtqnyNlSJln3K.8Xvq85ZY9MAgYjiC',
     colorPalette: {
-      primary: '#000000',
-      secondary: '#ffffff',
-      tertiary: '#000000',
-      quaternary: '#ffffff',
+      primary: '#110F8C',
+      secondary: '#EE962F',
+      tertiary: '#F8F8FA',
+      quaternary: '#E8E8F2',
       quinary: '#ffffff',
     },
     model: {
