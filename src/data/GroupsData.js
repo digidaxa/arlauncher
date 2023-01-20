@@ -241,7 +241,7 @@ const groups = () => ([
       quinary: '#ffffff',
     },
     model: {
-      src: 'treasure.glb',
+      src: '$2y$10$urk9XK9xXhbnlabk2du5CPtqnyNlSJln3K8Xvq85ZY9MAgYjiC.glb',
       iosSrc: '',
       alt: 'A 3D model of TREASURE'
     }
