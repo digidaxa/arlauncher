@@ -215,11 +215,11 @@ const groups = () => ([
     // ini adalah newjeans
     randstr: '$2y$10$ZPERgrL6nr4b5RcPILeQpuZ1XZPxNPa.19cyc7m7CP/XKvDcYJjuy',
     colorPalette: {
-      primary: '#47505c',
-      secondary: '#babdc4',
-      tertiary: '#a7b3c5',
-      quaternary: '#78818b',
-      quinary: '#8c98a2',
+      primary: '#416BB5',
+      secondary: '#FDED53',
+      tertiary: '#CED6DE',
+      quaternary: '#FFFFFF',
+      quinary: '#000000',
     },
     model: {
       src: 'newjeans.glb',
