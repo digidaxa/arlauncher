@@ -312,9 +312,9 @@ const groups = () => ([
     colorPalette: {
       primary: '#000704',
       secondary: '#efa7cd',
-      tertiary: '#EFF9BB',
+      tertiary: '#efa7cd',
       quaternary: '#FFFFFF',
-      quinary: '#efa7cd',
+      quinary: '#eff9bb',
     },
     model: {
       src: '$2y$10$q6qtczR4ZPC/Sah925FEz.glb',
