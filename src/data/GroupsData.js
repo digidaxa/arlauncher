@@ -314,7 +314,7 @@ const groups = () => ([
       secondary: '#efa7cd',
       tertiary: '#EFF9BB',
       quaternary: '#FFFFFF',
-      quinary: '#eff9bb',
+      quinary: '#efa7cd',
     },
     model: {
       src: '$2y$10$q6qtczR4ZPC/Sah925FEz.glb',
