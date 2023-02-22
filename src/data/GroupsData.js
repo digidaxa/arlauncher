@@ -32,7 +32,7 @@ const groups = () => ([
       quinary: '#ff94e0',
     },
     model: {
-      src: 'blackpink.glb',
+      src: '$2y$10$ak1vW3JelvLNfYKwdO.glb',
       iosSrc: '',
       alt: 'A 3D model of BLACKPINK'
     }
@@ -184,7 +184,7 @@ const groups = () => ([
       quinary: '#b1c1c4',
     },
     model: {
-      src: 'enhypen.glb',
+      src: '$2y$10$PlR2b0s7xUF.glb',
       iosSrc: '',
       alt: 'A 3D model of ENHYPEN'
     }
@@ -222,7 +222,7 @@ const groups = () => ([
       quinary: '#000000',
     },
     model: {
-      src: 'newjeans.glb',
+      src: '$2y$10$ZPERgrL6nr4b5RcPILeQpuZ1XZPxNPa.glb',
       iosSrc: '',
       alt: 'A 3D model of NewJeans'
     }
@@ -279,7 +279,7 @@ const groups = () => ([
       quinary: '#000000',
     },
     model: {
-      src: 'exo.glb',
+      src: '$2y$10$fzH1QESV64tN9aAuZOMIuqASavosq0DI.glb',
       iosSrc: '',
       alt: 'A 3D model of EXO'
     }
@@ -301,6 +301,25 @@ const groups = () => ([
       src: 'ikon.glb',
       iosSrc: '',
       alt: 'A 3D model of iKON'
+    }
+  },
+  {
+    id: 16,
+    title: 'NCT 127',
+    url: 'nct127',
+    // ini adalah nct 127
+    randstr: '$2y$10$q6qtczR4ZPC/Sah925FEz.meFwNavGGQWI46MoU6/kZd.C59klJoe',
+    colorPalette: {
+      primary: '#000704',
+      secondary: '#efa7cd',
+      tertiary: '#EFF9BB',
+      quaternary: '#FFFFFF',
+      quinary: '#eff9bb',
+    },
+    model: {
+      src: '$2y$10$q6qtczR4ZPC/Sah925FEz.glb',
+      iosSrc: '',
+      alt: 'A 3D model of NCT 127'
     }
   },
 ]);
